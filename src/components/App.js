@@ -45,7 +45,7 @@ class App extends Component {
       <div id="main">
         <ol>
         {this.result.map((x)=>(
-          <li key={x.key} >{x.name}</li>
+          <li key={x.key} >{x.name}({x.country})</li>
         ))}
         </ol>
       </div>
